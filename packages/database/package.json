@@ -1,0 +1,21 @@
+{
+    "name": "@rag/database",
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "scripts": {
+        "generate": "drizzle-kit generate",
+        "push": "drizzle-kit push",
+        "migrate": "drizzle-kit migrate",
+        "studio": "drizzle-kit studio"
+    },
+    "dependencies": {
+        "drizzle-orm": "^0.45.2",
+        "postgres": "^3.4.9"
+    },
+    "devDependencies": {
+        "drizzle-kit": "^0.31.10"
+    }
+}
